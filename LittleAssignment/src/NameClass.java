@@ -7,7 +7,8 @@ public class NameClass {
 		String lastName = "Richardson";
 		String middleName = "Vincent";
 		int age = 32;
+		String occupation = "Doctor";
 		
-		System.out.println(firstName.concat(middleName+" "+lastName+" "+age));
+		System.out.println(firstName.concat(middleName+" "+lastName+" "+age+" "+occupation));
 	}
 }
